@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css">
+    <title>大沢フロッグ自主練記録用ツール</title>
+  </head>
+  <body>
+     <form name="form1" id="id_form1" action="">
+    <p>名前</p>
+    <input id="Namae" type="text" name="example" value="" placeholder="名前を入力">
+    <p>アンダー両手</p>
+      <input id="under" type="number" name="example" value="50">
+    <p>アンダー右</p>
+      <input id="under_right" type="number" name="example" value="50">
+    <p>アンダー左</p>
+      <input id="under_left"  type="number" name="example" value="50">
+    <p>アンダー交互</p>
+      <input id="under_mix"  type="number" name="example" value="50">
+    <p>オーバー両手</p>
+      <input id="over"  type="number" name="example" value="50">
+    <p>オーバー右</p>
+      <input id="over_right"  type="number" name="example" value="50">
+    <p>オーバー左</p>
+      <input id="over_left"  type="number" name="example" value="50">
+    <p>オーバー交互</p>
+      <input id="over_mix"  type="number" name="example" value="50">
+    <p>オーバー寝起き</p>
+      <input id="over_updown" type="number"  name="example" value="10">
+    </form>
+
+ <button onclick="area2()">コピーする</button>
+ <a href="info.html">使い方</a>
+ <!--<button onclick="clickDisplayAlert()">実行ボタン2</button>-->
+ <textarea name="textarea" id="textarea_curry" 　></textarea>
+ <input type="text" id="textarea" value="">
+
+<div hidden>
+
+<input type="text" id="anda-" value="アンダー　">
+<input type="text" id="o-ba-" value="オーバー　">
+<input type="text" id="migi"  value="右　　">
+<input type="text" id="hidari" value="左　　">
+<input type="text" id="kougo" value="交互　">
+<input type="text" id="ryoute" value="両手　">
+<input type="text" id="neoki" value="寝起き">
+</div>
+          <script src="index.js"></script>
+  </body>
+</html>
